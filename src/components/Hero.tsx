@@ -19,18 +19,19 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/9492bd09-4232-4f0d-9f28-62fea19789d1/files/ec86ba2f-9c42-4db0-b07b-6eb6a30428bb.jpg"
+          alt="Дизельный двигатель"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ДИЗЕЛЬ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Полный разбор устройства дизельного двигателя — от поршня до турбины
         </p>
       </div>
     </div>
