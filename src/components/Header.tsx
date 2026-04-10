@@ -13,6 +13,7 @@ export default function Header({ className }: HeaderProps) {
             { href: "#valvetrain", label: "ГРМ" },
             { href: "#circulation", label: "Охлаждение" },
             { href: "#accessories", label: "Навесное" },
+            { href: "#quiz", label: "Тест" },
           ].map((link) => (
             <a
               key={link.href}

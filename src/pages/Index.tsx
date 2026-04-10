@@ -6,6 +6,8 @@ import EngineCore from "@/components/EngineCore";
 import Valvetrain from "@/components/Valvetrain";
 import Circulation from "@/components/Circulation";
 import Accessories from "@/components/Accessories";
+import EngineDiagram from "@/components/EngineDiagram";
+import Quiz from "@/components/Quiz";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,6 +21,8 @@ const Index = () => {
       <Promo />
       <Circulation />
       <Accessories />
+      <EngineDiagram />
+      <Quiz />
       <Footer />
     </main>
   );
